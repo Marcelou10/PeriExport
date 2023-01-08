@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;}
+    
+    /*header*/
+
+    .j{background-color: black;}
+
+    .j img, h1{
+        height: 30px;
+        width: 60px;
+        display: inline-block;
+        color: white;}
+
+        .menu__item{
+            margin-right: 50px;
+            margin-left: 200px;
+            padding-block:30px ;
+            display: flex;
+            display: inline-block;
+            }
+        
+        .menu__item a{
+            color: white;
+            text-decoration: none;}
+        
+        .menu__item.active{
+            text-decoration: underline;}
+    
+        .menu__item a:hover{
+            text-decoration: underline;}
+
+        .menu{font-size: 32px;}
+
+        /*main*/
+        
+
+
+            
+
+
+        .seccion1{
+            display: flex;
+            text-align: center;
+            align-items: center;
+           
+            }
+            
+            .seccion1__title{
+                font-size: 32px;}
+            
+            
+                .seccion1__img{
+                margin-top: 20px;}
+
+                .seccion1__p{
+                    font-size: 20px;
+                padding-inline: 200px;
+                margin-bottom: 60px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*cards*/
+        
+        .cartita{
+        display: grid;
+        display: inline-block;
+        margin-left: 100px;}
+
+        .card{
+            background-color: rgba(0, 0, 0, 0.356);
+            width: 400px;
+            margin-inline: 20px;
+            border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;}
+
+        .card__img{
+            width: 100%;
+            padding: 10px;}
+
+
+        .card__titulo{
+            font-size: 20px;
+
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;}
+
+        .card__p{
+            font-size: 15px;
+            text-align: center
+            ;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-inline: 15px;}
+
+            .card__button{
+                background-color:rgb(190, 190, 186);
+                border: 0;
+                border-radius: 10px;
+                margin-top: 10px;
+            margin-bottom: 20px;
+            margin-left: 20px;}
+
+
+
+
+
+
+        
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
